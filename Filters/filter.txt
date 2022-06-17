@@ -1,0 +1,128 @@
+! Title: Personal Filter List
+! Description: Recommended Filtering
+! Homepage: https://github.com/TogoFire-Home/AD-Settings
+!
+! Regex
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
+^(.+[_.-])?telemetry[_.-]
+^adim(age|g)s?[0-9]*[_.-]
+^adtrack(er|ing)?[0-9]*[_.-]
+^advert(s|is(ing|ements?))?[0-9]*[_.-]
+^aff(iliat(es?|ion))?[_.-]
+^analytics?[_.-]
+^banners?[_.-]
+^beacons?[0-9]*[_.-]
+^count(ers?)?[0-9]*[_.-]
+^mads\.
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[_.-]
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
+^https?://([A-Za-z0-9.-]*\.)?match\.com/
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap/
+^https?://([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?advertising\.com/
+^https?://([A-Za-z0-9.-]*\.)?evidon\.com/
+^https?://([A-Za-z0-9.-]*\.)?scorecardresearch\.com/
+^https?://([A-Za-z0-9.-]*\.)?flashtalking\.com/
+^https?://([A-Za-z0-9.-]*\.)?turn\.com/
+^https?://([A-Za-z0-9.-]*\.)?mathtag\.com/
+^https?://([A-Za-z0-9.-]*\.)?surveylink/
+^https?://([A-Za-z0-9.-]*\.)?info\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/
+^r[0-9]{1,99}-*sn-*[a-z0-9]{1,99}-[a-z0-9]{1,99}\.googlevideo\.com$
+!
+! Prevent popups at the end of Youtube video
+youtube.com##.ytp-ce-element
+!
+! www.rockmods.net
+*$cookie,domain=rockmods.net
+rockmods.net##.cookies-show
+rockmods.net###ignielAdBlock
+||rockmods.net^$popup,third-party
+!
+! autoridadetech.com.br
+autoridadetech.com.br##.visible.showSweetAlert.sweet-alert
+autoridadetech.com.br##.sweet-overlay
+!
+! comandotorrent.tv
+||cdncache.ml/$subdocument
+!
+! lrepacks.net
+lrepacks.net##iframe:nth-of-type(2)
+lrepacks.net##iframe:nth-of-type(3)
+!
+! ac.apps2app.com
+ac.apps2app.com###adblockbyspider
+ac.apps2app.com##.aktif.wc-adblock-wrap
+!
+! ph.apps2app.com
+ph.apps2app.com###adblockbyspider
+!
+! mytoolzhub.net
+mytoolzhub.net##.aktif.wc-adblock-wrap
+! https://www.instagram.com
+||scontent-mia3-2.cdninstagram.com/v/t51.2885-15/178023249_205293754484343_798517013012336413_n.jpg?stp=c181.0.1078.1078a_dst-jpg_e35_s*&_nc_ht=scontent-mia3-2.cdninstagram.com&_nc_cat=103&_nc_ohc=3lLc82EMHDsAX-SLqAn&edm=APU89FABAAAA&ccb=7-4&oh=00_AT*&oe=62688762&_nc_sid=86f79a$image
+instagram.com##._Yhr4.RnEpo
+instagram.com##.ZUqME.N9d2H.TxciK._7JkPY.D8xaz.O1flK.HcJZg.XfCBB.IY_1_.CIRqI._4EzTm.YBx95.pmxbr.IwRSH.Igw0E.qF0y9.tHaIX
+!
+! megafilmeseserieshd.net
+||image.tmdb.org/t/p/w780/sOCKmOE9dT6STuR41Q1oVNNpMKR.jpg$image
+||image.tmdb.org/t/p/w780/sOCKmOE9dT6STuR41Q1oVNNpMKR.jpg$image
+!
+! filecr.com
+filecr.com##.wp-ltpdcxzoxkqoyib-wrapper
+filecr.com##.active.wp-ltpdcxzoxkqoyib-blackout
+!
+!
+! nitroflare.com
+nitroflare.com###superbox-container
+nitroflare.com###superbox-wrapper
+nitroflare.com###superbox-overlay
+!
+! https://blog.mettzer.com
+||blog.mettzer.com/wp-content/uploads/2022/03/baner-gerador-referencia-rodape*.png$image
+blog.mettzer.com###popup-0
+||blog.mettzer.com^$popup,third-party
+!
+! https://drive.icafe.ee
+drive.icafe.ee##.jconfirm-cell
+drive.icafe.ee##.jconfirm-scrollpane
+drive.icafe.ee##.jconfirm-bg
+drive.icafe.ee##.jconfirm-open.jconfirm-1ec40cd1c8ea7e2d3a0c.jconfirm
+drive.icafe.ee##.jconfirm-open.jconfirm-090847a4511d8a734b0f.jconfirm
+!
+! AGH boring notification
+192.168.8.1##.topline.alert-info.alert
+192.168.8.1###root > div.alert.alert-info.topline:first-child
+192.168.40.1##.topline.alert-info.alert
+192.168.40.1###root > div.alert.alert-info.topline:first-child
+192.168.47.1##.topline.alert-info.alert
+192.168.47.1###root > div.alert.alert-info.topline:first-child
+!
+! https://autoridadetech.com.br
+autoridadetech.com.br##p > ins
+!
+! https://www.softwaretestinghelp.com
+softwaretestinghelp.com##.tve_p_lb_overlay
+softwaretestinghelp.com##.tve-leads-triggered.cnt.bSe.tl-anim-zoom_in.tve-tl-anim.tve_p_lb_content
+
+
+
