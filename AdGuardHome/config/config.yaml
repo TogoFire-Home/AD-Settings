@@ -29,13 +29,23 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - https://dns.adguard.com/dns-query
+  - 94.140.14.14
+  - 1.1.1.1
+  - 9.9.9.9
   upstream_dns_file: ""
   bootstrap_dns:
   - 94.140.14.14
   - 94.140.15.15
   - 2a10:50c0::ad1:ff
   - 2a10:50c0::ad2:ff
+  - 1.1.1.1
+  - 1.0.0.1
+  - 2606:4700:4700::1111
+  - 2606:4700:4700::1001
+  - 9.9.9.10
+  - 149.112.112.10
+  - 2620:fe::10
+  - 2620:fe::fe:10
   all_servers: false
   fastest_addr: false
   fastest_timeout: 1s
@@ -59,10 +69,10 @@ dns:
   max_goroutines: 300
   ipset: []
   filtering_enabled: true
-  filters_update_interval: 24
+  filters_update_interval: 72
   parental_enabled: false
   safesearch_enabled: false
-  safebrowsing_enabled: false
+  safebrowsing_enabled: true
   safebrowsing_cache_size: 1048576
   safesearch_cache_size: 1048576
   parental_cache_size: 1048576
@@ -70,8 +80,7 @@ dns:
   rewrites: []
   blocked_services: []
   upstream_timeout: 10s
-  local_domain_name: lan
-  resolve_clients: true
+  private_networks: []
   use_private_ptr_resolvers: true
   local_ptr_upstreams: []
 tls:
@@ -96,250 +105,254 @@ filters:
   id: 1
 - enabled: true
   url: https://adaway.org/hosts.txt
-  name: AdAway Default Blocklist Hosts
+  name: AdAway Default Blocklist
   id: 2
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
   name: uBlockOrigin
-  id: 1654135465
+  id: 1678068030
 - enabled: true
   url: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
   name: Scam Blocklist by DurableNapkin Hosts
-  id: 1654135468
+  id: 1678071896
 - enabled: true
   url: https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
   name: The Big List of Hacked Malwaware Hosts
-  id: 1654135469
+  id: 1678071897
 - enabled: true
   url: https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
   name: Malicious URL Blocklist AGH
-  id: 1654135470
+  id: 1678071898
 - enabled: true
   url: https://anti-ad.net/easylist.txt
   name: Privacy-protection-tools/anti-ad AGH
-  id: 1654135471
+  id: 1678071899
 - enabled: true
   url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
   name: Peter Lowe's List Hosts
-  id: 1654135472
+  id: 1678071900
 - enabled: true
   url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
-  name: "\U0001F3AE Game Console Adblock AGH&Pi-hole"
-  id: 1654135474
+  name: Game Console Adblock AGH&Pi-hole
+  id: 1678071901
 - enabled: true
   url: https://someonewhocares.org/hosts/zero/hosts
   name: Dan Pollock's List Hosts
-  id: 1654135475
+  id: 1678071902
 - enabled: true
   url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-  name: "\U0001F48A Dandelion Sprout's Anti-Malware DNS"
-  id: 1654135476
+  name: Dandelion Sprout's Anti-Malware DNS
+  id: 1678071903
 - enabled: true
   url: https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt
   name: The Block List Project - Malwaware Hosts
-  id: 1654135477
+  id: 1678071904
 - enabled: true
   url: https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list
   name: Nginx Ultimate Bad Bot Blocker Domains
-  id: 1654135478
+  id: 1678071905
 - enabled: true
   url: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
   name: GoodbyeAds YouTube Hosts
-  id: 1654135479
+  id: 1678071906
 - enabled: true
   url: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
   name: GoodbyeAds Xiaomi Hosts
-  id: 1654135480
+  id: 1678097940
 - enabled: true
   url: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
   name: GoodbyeAds Samsung Hosts
-  id: 1654135481
+  id: 1678097941
 - enabled: true
   url: https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
   name: Blacklist Adserver Hosts
-  id: 1654135483
+  id: 1678097942
 - enabled: true
   url: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
   name: Lightswitch05's Hosts ads-and-tracking extended
-  id: 1654135484
+  id: 1678097943
 - enabled: true
   url: https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
   name: Lightswitch05's Hosts amp-hosts-extended
-  id: 1654135485
+  id: 1678097944
 - enabled: true
   url: https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt
   name: Lightswitch05's Hosts dating-service
-  id: 1654135486
+  id: 1678097945
 - enabled: true
   url: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
   name: NoCoin Filter Hosts
-  id: 1654135487
+  id: 1678097946
 - enabled: true
   url: https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset
   name: Firehol_level1 max protection IP Lists
-  id: 1654135488
+  id: 1678097947
 - enabled: true
   url: https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level4.netset
   name: Firehol_level4 max protection IP Lists
-  id: 1654135489
+  id: 1678097948
 - enabled: true
   url: https://www.team-cymru.org/Services/Bogons/fullbogons-ipv6.txt
   name: Team Cymru Fullbogons (IPv6) IP Lists
-  id: 1654135490
+  id: 1678097949
 - enabled: true
   url: https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt
   name: Team Cymru Fullbogons (IPv4) IP Lists
-  id: 1654135491
+  id: 1678097950
 - enabled: true
-  url: https://tgc.cloud/downloads/iOSAds.txt
-  name: IOS Ads Hosts
-  id: 1654135492
+  url: https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-iOS
+  name: hostsVN IOS Ads Hosts
+  id: 1678097951
 - enabled: true
   url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/urls
   name: Phishing & Malware OLBAT Domains
-  id: 1654199117
+  id: 1678097952
 - enabled: true
   url: https://raw.githubusercontent.com/UnluckyLuke/BlockUnderRadarJunk/master/blockunderradarjunk-list.txt
   name: BlockUnderRadarJunk Domains
-  id: 1654199118
+  id: 1678097953
 - enabled: true
   url: https://hblock.molinero.dev/hosts_adblock.txt
   name: Phishing Army | hBlock Hosts
-  id: 1654199119
+  id: 1678097954
 - enabled: true
   url: https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt
   name: ADS Mochi DNS Filter Abroad
-  id: 1654199592
+  id: 1678097955
 - enabled: true
   url: https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_google_adservice_id.txt
   name: Google Ads and ID.G tracking Hosts
-  id: 1654199873
+  id: 1678097956
 - enabled: true
   url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
   name: Unified hosts = (adware + malware)
-  id: 1654199874
+  id: 1678097957
 - enabled: true
   url: https://v.firebog.net/hosts/Prigent-Malware.txt
   name: Prigent-Malware Domains
-  id: 1654200079
+  id: 1678097958
 - enabled: true
   url: https://v.firebog.net/hosts/static/w3kbl.txt
   name: SUS Lists Personal by WaLLy3K Domains
-  id: 1654200080
+  id: 1678097959
 - enabled: true
   url: https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
   name: Spam blacklist Domains
-  id: 1654200274
+  id: 1678097960
 - enabled: true
   url: https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
   name: Spam Suspicious by ValeSila Hosts
-  id: 1654200275
+  id: 1678097961
 - enabled: true
   url: https://v.firebog.net/hosts/Easyprivacy.txt
   name: Easyprivacy Firebog Domains
-  id: 1654200650
+  id: 1678097962
 - enabled: true
   url: https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
   name: Privacy multiparty-trackers Hosts
-  id: 1654200651
+  id: 1678097963
 - enabled: true
   url: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
   name: Privacy android-tracking Domains
-  id: 1654200917
+  id: 1678097964
 - enabled: true
   url: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
   name: Smart-TV Blocklist for AGH
-  id: 1654200918
+  id: 1678097965
 - enabled: true
   url: https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
   name: NoTrack Tracker Domains
-  id: 1654201149
-- enabled: true
-  url: https://kriskintel.com/feeds/ktip_ransomware_feeds.txt
-  name: Krisk Intel - KTIP Ransomware IP Lists
-  id: 1654203661
-- enabled: true
-  url: https://kriskintel.com/feeds/ktip_malicious_Ips.txt
-  name: Krisk Intel Malicious IP Lists
-  id: 1654203853
+  id: 1678097966
 - enabled: true
   url: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
   name: OSINT.digitalside.it Malicious Domains
-  id: 1654203854
+  id: 1678097967
 - enabled: true
   url: https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/active-domains.adblock
   name: Phishing Domains Blocklist by mitchellkrogza
-  id: 1654204062
+  id: 1678097968
 - enabled: true
   url: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
   name: Ad-wars Hosts
-  id: 1654204063
+  id: 1678097969
 - enabled: true
   url: https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
   name: Brave DNS
-  id: 1654204652
+  id: 1678097970
 - enabled: true
-  url: http://hostsfile.mine.nu/hosts0.txt
-  name: hostsfile.mine.nu pop-Up Hosts
-  id: 1654204870
+  url: https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+  name: KADhosts
+  id: 1678097971
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
   name: uBlockOrigin2020
-  id: 1655060357
+  id: 1678097972
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
   name: uBlockOrigin2021
-  id: 1655060677
-- enabled: true
-  url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
-  name: uBlock Origin – Annoyances
-  id: 1655061102
-- enabled: true
-  url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
-  name: uBlock Origin – Badware
-  id: 1655061103
+  id: 1678097973
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
   name: uBlockOrigin2022
-  id: 1655061637
-- enabled: false
-  url: https://raw.githubusercontent.com/AmmoniteFilter/AmmoniteFilter/master/filter.txt
-  name: AmmoniteFilterFamily-AGH
-  id: 1655246062
+  id: 1678097974
 - enabled: true
-  url: https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/filter.txt
-  name: Personal List
-  id: 1655519034
+  url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+  name: uBlockOrigin2023
+  id: 1678097975
+- enabled: true
+  url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
+  name: uBlockOrigin – Annoyances
+  id: 1678097976
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
   name: uBlockOrigin – Privacy
-  id: 1655522447
+  id: 1678097977
+- enabled: true
+  url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
+  name: uBlock Origin – Badware
+  id: 1678097978
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt
   name: uBlockOrigin - Quick fixes list
-  id: 1655522448
+  id: 1678097979
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
   name: uBlockOrigin – Resource abuse
-  id: 1655523330
+  id: 1678097980
 - enabled: true
   url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
   name: uBlockOrigin – Unbreak
-  id: 1655523331
+  id: 1678097981
+- enabled: true
+  url: https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/filter.txt
+  name: Personal List
+  id: 1678097984
 - enabled: true
   url: https://securereload.tech/Phishing/Lists/Latest/
   name: SecureReload Phishing Domains
-  id: 1655946432
+  id: 1678097985
 whitelist_filters:
 - enabled: true
   url: https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/whitelist.txt
   name: AGH Whitelist
-  id: 1655522008
-user_rules:
-- ""
+  id: 1678071894
+- enabled: true
+  url: https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
+  name: Hl2 agh whitelist
+  id: 1678071895
+- enabled: true
+  url: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
+  name: Torrent Whitelist
+  id: 1678097988
+- enabled: true
+  url: https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt
+  name: Banks Whitelist
+  id: 1678097989
+user_rules: []
 dhcp:
   enabled: false
   interface_name: ""
+  local_domain_name: lan
   dhcpv4:
     gateway_ip: ""
     subnet_mask: ""
@@ -353,7 +366,14 @@ dhcp:
     lease_duration: 86400
     ra_slaac_only: false
     ra_allow_slaac: false
-clients: []
+clients:
+  runtime_sources:
+    whois: true
+    arp: true
+    rdns: true
+    dhcp: true
+    hosts: true
+  persistent: []
 log_compress: false
 log_localtime: false
 log_max_backups: 0
@@ -365,4 +385,4 @@ os:
   group: ""
   user: ""
   rlimit_nofile: 0
-schema_version: 12
+schema_version: 14

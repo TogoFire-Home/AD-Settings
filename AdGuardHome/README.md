@@ -58,6 +58,8 @@ uBlockOrigin 2021 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/
 
 uBlockOrigin 2022 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
 
+uBlockOrigin 2023 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+
 uBlockOrigin – Annoyances https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
 
 uBlockOrigin – Badware https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
@@ -116,7 +118,7 @@ Team Cymru Fullbogons (IPv6) IP Lists https://www.team-cymru.org/Services/Bogons
 
 Team Cymru Fullbogons (IPv4) IP Lists https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt
 
-IOS Ads Hosts https://tgc.cloud/downloads/iOSAds.txt
+hostsVN IOS Ads Hosts https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-iOS
 
 Phishing & Malware OLBAT Domains https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/urls
 
@@ -140,17 +142,13 @@ Spam Suspicious by ValeSila Hosts https://raw.githubusercontent.com/VeleSila/yho
 
 Easyprivacy Firebog Domains https://v.firebog.net/hosts/Easyprivacy.txt
 
-Privacy multiparty-trackers Hosts https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
+Prigent-Ads Domains https://v.firebog.net/hosts/Prigent-Ads.txt
 
 Privacy android-tracking Domains https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 
 Smart-TV Blocklist for AGH https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
 
 NoTrack Tracker Domains https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-
-Krisk Intel - KTIP Ransomware IP Lists https://kriskintel.com/feeds/ktip_ransomware_feeds.txt
-
-Krisk Intel Malicious IP Lists https://kriskintel.com/feeds/ktip_malicious_Ips.txt
 
 OSINT.digitalside.it Malicious Domains https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 
@@ -160,10 +158,22 @@ Ad-wars Hosts https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 
 Brave DNS https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
 
-hostsfile.mine.nu pop-Up Hosts http://hostsfile.mine.nu/hosts0.txt
-
-AmmoniteFilterFamily-AGH https://raw.githubusercontent.com/AmmoniteFilter/AmmoniteFilter/master/filter.txt
-
 SecureReload Phishing Domains https://securereload.tech/Phishing/Lists/Latest/
 
 AGH Whitelist https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/whitelist.txt
+
+Hl2 agh Whitelist https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
+
+Banks agh Whitelist https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt
+
+Torrent Domains Whitelist https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
+
+Discord&Steam Phishing Domains https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
+
+Anti-WebMiner, Block Crypto & PUPs Hosts https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/hosts.txt
+
+D3host Hosts https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt
+
+Phishing URL Blocklist AGH https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt
+
+KADhosts https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt

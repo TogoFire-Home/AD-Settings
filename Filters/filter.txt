@@ -91,6 +91,9 @@ instagram.com##.ZUqME.N9d2H.TxciK._7JkPY.D8xaz.O1flK.HcJZg.XfCBB.IY_1_.CIRqI._4E
 filecr.com##.wp-ltpdcxzoxkqoyib-wrapper
 filecr.com##.active.wp-ltpdcxzoxkqoyib-blackout
 !
+! eset
+0.0.0.0 edf.eset.com
+0.0.0.0 expire.eset.com
 !
 ! nitroflare.com
 nitroflare.com###superbox-container
@@ -123,6 +126,3 @@ autoridadetech.com.br##p > ins
 ! https://www.softwaretestinghelp.com
 softwaretestinghelp.com##.tve_p_lb_overlay
 softwaretestinghelp.com##.tve-leads-triggered.cnt.bSe.tl-anim-zoom_in.tve-tl-anim.tve_p_lb_content
-
-
-
