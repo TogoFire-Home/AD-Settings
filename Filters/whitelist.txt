@@ -26,6 +26,10 @@
 @@||geo3.ggpht.com^$important
 @@||yt3.ggpht.com^$important
 @@||drive.google.com^$important
+@@||g.co^$important
+@@||gemini.google.com^$important
+@@||translate.google.com^$important
+@@||googleapis.l.google.com^$important
 ! CNAME googletagmanager.com
 @@||www-googletagmanager.l.google.com^$important
 @@||googletagmanager.com^$important
@@ -45,6 +49,8 @@
 @@||i.ytimg.com^$important
 @@||i1.ytimg.com^$important
 @@||s.ytimg.com^$important
+@@||play.googleapis.com^$important
+@@||googlevideo.com^$important
 ! For Youtube history
 @@||s.youtube.com^$important
 ! Plex
@@ -110,11 +116,22 @@
 @@||snossafamilia.com.br^$important
 @@||supernossafamilia.com^$important
 @@||mail.supernossafamilia.com^$important
-@@||hub.gowifi.com.br^$important
+@@||superamigos.net^$important
+@@||mail.superamigos.net^$important
 @@||node712.extrainfra.com^$important
+@@||mail.node712.extrainfra.com^$important
+@@||ns1n712.extrainfra.com^$important
+@@||ns2n712.extrainfra.com^$important
+@@||dilbert.ns.cloudflare.com^$important
+@@||dana.ns.cloudflare.com^$important
+@@||ns1.dnsowl.com^$important
+@@||ns2.dnsowl.com^$important
+@@||ns3.dnsowl.com^$important
+@@||irena.ns.cloudflare.com^$important
+@@||weston.ns.cloudflare.com^$important
+@@||hub.gowifi.com.br^$important
 @@||da-de1.cloudns.io^$important
 @@||getmailbird.com^$important
-@@||flathub.org^$important
 ! Yahoo Mail
 @@||smtp.mail.yahoo.com^$important
 ! Twitch Chat
@@ -130,6 +147,10 @@
 @@||twimg.com^$important
 @@||twitter.com^$important
 @@||t.co^$important
+! Required for links on the mobile app
+@@||analytics.twitter.com^$important
+! Required for images
+@@||twimg.com^$important
 ! Optimizely | VarageSale app (iOS)
 @@||optimizely.com^$important
 @@||cdn.optimizely.com^$important
@@ -142,6 +163,26 @@
 @@||widget-cdn.rpxnow.com^$important
 @@||akamai.net^$important
 @@||akadns.net^$important
+! Snapchat
+@@||story.snapchat.com^$important
+@@||accounts.snapchat.com^$important
+@@||static.snapchat.com^$important
+@@||app.snapchat.com^$important
+@@||cf-st.sc-cdn.net^$important
+! Snapchat Aws
+@@||aws.duplex.snapchat.com^$important
+@@||aws.api.snapchat.com^$important
+@@|aws-proxy-gcp.api.snapchat.com^$important
+@@||aws.api.sc-gw.com^$important
+@@||us-east1-aws.api.sc-gw.com^$important
+! Snapchat api
+@@||us-east4-gcp.api.snapchat.com^$important
+@@||aws.api.snapchat.com^$important
+@@||us-central1-gcp.api.snapchat.com^$important
+@@||aws-proxy-gcp.api.sc-gw.com^$important
+@@||us-east1-aws.duplex.sc-gw.com^$important
+@@||gcp.api.snapchat.com^$important
+@@||us-central1-gcp.api.sc-gw.com^$important
 ! Sonarr TV Soft
 @@||apt.sonarr.tv^$important
 @@||download.sonarr.tv^$important
@@ -274,6 +315,18 @@
 @@||dl.delivery.mp.microsoft.com^$important
 @@||1drv.com^$important
 @@||aspnetcdn.com^$important
+@@||www.msftncsi.com^$important
+@@||officeclient.microsoft.com^$important
+@@||dl.delivery.mp.microsoft.com^$important
+@@||geo-prod.do.dsp.mp.microsoft.com^$important
+@@||displaycatalog.mp.microsoft.com^$important
+@@||sls.update.microsoft.com.akadns.net^$important
+@@||fe3.delivery.dsp.mp.microsoft.com.nsatc.net^$important
+@@||clientconfig.passport.net^$important
+@@||v10.events.data.microsoft.com^$important
+@@||v20.events.data.microsoft.com^$important
+@@||client-s.gateway.messenger.live.com^$important
+@@||arc.msn.com^$important
 ! For Xbox live achievements
 @@||v20.vortex-win.data.microsoft.com^$important
 @@||v10.vortex-win.data.microsoft.com^$important
@@ -291,6 +344,10 @@
 @@|g.live.com^$important
 @@|g.msn.com^$important
 ! Netflix
+@@||nflximg.com^$important
+@@||llnwd.net^$important
+@@||appboot.netflix.com^$important
+@@||uiboot.netflix.com^$important
 @@||api-global.netflix.com^$important
 @@||ichnaea.netflix.com^$important
 @@||appboot.netflix.com^$important
@@ -298,6 +355,7 @@
 ! Samsung TV network issue
 @@||cdn.samsungcloudsolution.com^$important
 ! Spotify
+@@||spotify.com^$important
 @@||open.spotify.com^$important
 @@||mobile-ap.spotify.com^$important
 @@||apresolve.spotify.com^$important
@@ -307,6 +365,10 @@
 @@||ap.spotify.com^$important
 @@||audio-ake.spotify.com.edgesuite.net^$important
 @@||audio4-ak.spotify.com.edgesuite.net^$important
+! Spotify + Apple Music
+@@||googleusercontent.com^$domain=spotify.com$important
+@@||itunes.apple.com^$important
+@@||s.mzstatic.com^$important
 ! Sonos
 @@||msmetrics.ws.sonos.com^$important
 ! Amazon Prime Video and Amazon CDN
@@ -318,7 +380,21 @@
 @@||device-metrics-us-2.amazon.com^$important
 @@||images-amazon.com^$important
 @@||amazonaws.com^$important
+! Amazon
+@@||mobileanalytics.us-east-1.amazonaws.com^$important
+@@||cognito-identity.us-east-1.amazonaws.com^$important
+@@||unagi-na.amazon.com^$important
+@@||ocsp.rootg2.amazontrust.com^$important
+@@||det-ta-g7g.amazon.com^$important
+@@||todo-ta-g7g.amazon.com^$important
+@@||device-messaging-na.amazon.com^$important
+@@||vs3-eu-west-1.amazonaws.com^$important
+@@||us-east-1.amazonaws.com^$important
+@@||device-metrics-us-2.amazon.com^$important
+@@||sqs.us-east-1.amazonaws.com^$important
 ! Apple
+@@||mesu.apple.com^$important
+@@||appleid.apple.com^$important
 @@||gdmf.apple.com.akadns.net^$important
 @@||apple.com^$important
 @@||itunes.com^$important
@@ -395,6 +471,11 @@
 @@||fe-lb.tranquilli.org^$important
 ! Reddit
 @@||reddit.com^$important
+! With help from https://www.reddit.com/r/pihole/comments/aan57o/how_to_whitelist_reddit/
+@@||accounts.reddit.com^$important
+@@||i.reddit.com^$important
+@@||redd.it^$important
+@@||cdn.embedly.com^$important
 ! Telegraph
 @@||telegra.ph^$important
 ! Glasswire
@@ -407,7 +488,7 @@
 ! Solidshare
 @@||solidshare.net^$important
 ! Repackme
-@@||repack.me^$important
+@@||*.repack.me^$important
 @@||repackmepoymi.cf^$important
 ! Stacksocial
 @@||stacksocial.com^$important
@@ -446,6 +527,13 @@
 ! Mercado Livre
 @@||mercadolivre.com.br^$important
 @@||mercadopago.com.br^$important
+! Netshoes
+@@||netshoes.com.br^$important
+@@||marketingcloudapis.com^$important,third-party,app=br.com.netshoes.app
+@@||marketingcloudapis.com^$important,third-party
+! Firewalla
+@@||firewalla.com^$important
+@@||my.firewalla.com^$important
 ! Others
 @@||cdnp2.stackassets.com^$important
 @@||snap.licdn.com^$important
@@ -469,12 +557,31 @@
 @@||cedexis.net^$important
 @@||omni.com.br^$important
 @@||ias.biz.com.br^$important
-@@||netshoes.com.br^$important
 @@||majorgeeks.com^$important
 @@||greatis.com^$important
 @@||dl.gl-inet.com^$important
-@@||firewalla.com^$important
 @@||gl-inet.com^$important
+@@||app.tagsell.com.br^$important
+@@||app.tagsell.com.br/login^$important
+@@||app.internetbanking.caixa.gov.br^$important
+@@||caixa.gov.br^$important
+@@||tagsell.com.br^$important
+@@||my.kaspersky.com^$important
+@@||*.iobit.com^$important
+@@||*.elasticbeanstalk.com^$important
+@@||cd4o.com^$important
+@@||driverboosterscan.com^$important
+@@||tls.comnectnet.com.br^$important
+@@||tls.comnectmonitor.com.br^$important
+@@||portal.comnect.com.br^$important
+@@||update.comnect.com.br^$important
+@@||sitefexpress.softwareexpress.com.br^$important
+@@||35.199.86.162^$important
+@@||sitdm.net^$important
+@@||usitdm.net^$important
+@@||uzecomvoce.com.br^$important
+@@||shalltry.com^$important
+@@||*.dmcardweb.com.br^$important
 ! https://www.reddit.com/r/pihole/comments/74it6h/help_identifying_embedded_video_url_being_blocked/
 @@||d2c8v52ll5s99u.cloudfront.net^$important
 ! https://wally3k.github.io/ (bottom of the page)
@@ -488,6 +595,8 @@
 @@||tracking.epicgames.com^$important
 ! Riot League of Lengends launch
 @@||ekg.riotgames.com^$important
+! Required for the PS5
+@@||telemetry-console.api.playstation.com^$important
 ! Required for watching espn
 @@||livepassdl.conviva.com
 @@||conviva.com^$important
@@ -699,6 +808,7 @@
 @@||events.gfe.nvidia.com^$important
 @@||gfwsl.geforce.com^$important
 @@||img.nvidiagrid.net^$important
+@@||ota-downloads.nvidia.com^$important
 ! Fixes shadowplay
 @@||gfe.nvidia.com^$important
 ! Nvidia games not showing in list
@@ -767,6 +877,7 @@
 @@||.evowise.com^$important
 ! Torrent tracker
 @@||tracker.trackerfix.com^$important
+@@||gratistorrent.com^$important
 ! Newsletter host
 @@||revue.com^$important
 ! DirectTV Now
@@ -1329,6 +1440,9 @@
 @@||hbbtv01p.anixe.net^$important
 ! https://github.com/notracking/hosts-blocklists/issues/555
 @@||sgqcvfjvr.onet.pl^$important
+! Keepsolid
+@@||keepsolid.com^$important
+@@||id.keepsolid.com^$important
 ! Linkedin
 @@||linkedin.com^$important
 @@||media-expl1.licdn.com^$important
@@ -2151,6 +2265,7 @@ dr49lng3n1n2s.cloudfront.net^$important
 ! Play Services fonts
 @@||fonts.gstatic.com^$important,app=com.google.android.gms
 ! YouTube
+@@||googleusercontent.com^$domain=youtube.com$important
 @@||googleusercontent.com^$important,app=com.google.android.youtube
 @@||youtubei.googleapis.com^$important,app=com.google.android.youtube
 @@||youtube.com^$important,app=com.google.android.youtube
@@ -2244,7 +2359,7 @@ dr49lng3n1n2s.cloudfront.net^$important
 @@||firestore.clients6.google.com^$important
 ! https://forum.adguard.com/index.php?threads/27219/
 @@||triolan.name^$important
-! Opera VPN:
+! Opera VPN
 @@||api.surfeasy.com^$important
 @@||sec-tunnel.com^$important
 @@||opera-proxy.net^$important
@@ -2445,14 +2560,78 @@ dr49lng3n1n2s.cloudfront.net^$important
 @@||mirrorcache-us.opensuse.org^$important
 @@||mirrorcache-br.opensuse.org^$important
 @@||mirrorcache-br-2.opensuse.org^$important
+@@||cache.opensuse.net.br^$important
 @@||mirrorcache.opensuse.org^$important
 @@||news.opensuse.org^$important
 @@||ftp.gwdg.de^$important
 @@||build.opensuse.org^$important
 @@||software.opensuse.org^$important
 ! Flathub
+@@||flathub.org^$important
 @@||dl.flathub.org^$important
 @@||flatpak.elementary.io^$important
 @@||flatpak.zorinos.com^$important
 @@||docs.flatpak.org^$important
 @@||flatpak.org^$important
+! Shopping
+@@||assets.adobedtm.com^$important
+@@||nexus.ensighten.com^$important
+! Smart TV
+@@||ngfts.lge.com^$important
+@@||mhc-ajax-eu.myhomescreen.tv^$important
+@@||mhc-ajax-eu-s2.myhomescreen.tv^$important
+@@||mhc-ajax-us.myhomescreen.tv^$important
+@@||mhc-eu.myhomescreen.tv^$important
+@@||mhc-us.myhomescreen.tv^$important
+@@||mhc-xpana-eu.myhomescreen.tv^$important
+@@||mhc-xpana-eu-s2.myhomescreen.tv^$important
+@@||mhc-xpana-us.myhomescreen.tv^$important
+@@||vcs.vdspf.com^$important
+@@||applicast.ga.sony.net^$important
+@@||update.biv.sony.tv^$important
+@@||deviceportal.nettvservices.com^$important
+@@||epg.corio.com^$important
+@@||ecdinterface.philips.com^$important
+@@||auth.samsungosp.com^$important
+@@||cdn.samsungcloudsolution.com^$important
+@@||infolink.pavv.co.kr^$important
+@@||lcprd1.samsungcloudsolution.net^$important
+@@||otnprd10.samsungcloudsolution.net^$important
+@@||otnprd11.samsungcloudsolution.net^$important
+@@||otnprd8.samsungcloudsolution.net^$important
+@@||otnprd9.samsungcloudsolution.net^$important
+@@||samsungosp.com^$important
+@@||samsungotn.net^$important
+@@||time.samsungcloudsolution.com^$important
+@@||osb-ussvc.samsungqbe.com^$important
+@@||otn.samsungcloudcdn.com^$important
+@@||ns11.whois.co.kr^$important
+@@||api.vizio.com^$important
+@@||images.vizio.com^$important
+@@||announcements.vizio.com^$important
+@@||hbbtv.prosieben.de^$important
+@@||hbbtv.redbutton.de^$important
+@@||hbbtv.zdf.de^$important
+@@||apicache.vudu.com^$important
+@@||tv.deezer.com^$important
+@@||api.us.hismarttv.com^$important
+@@||api.euro.hismarttv.com^$important
+! Canon
+@@||gdlp01.c-wss.com^$important
+! Weather
+@@||images.twnmm.com^$important
+! Captcha
+@@||api-verify.recaptcha.net^$important
+! Equifax
+@@||ci-mpsnare.iovation.com^$important
+@@||scorecardresearch.com^$important
+@@||equifaxps.122.2o7.net^$important
+@@||equifax28031z.btttag.com^$important
+@@||equifax.com^$important
+@@||equifax.ca^$important
+@@||mpsnare.iesnare.com^$important
+! Fast
+@@||fast.com^$important
+! Swiftbackup
+@@||firebaseio.com^$important,app=org.swiftapps.swiftbackup
+@@||swiftapps.org^$important

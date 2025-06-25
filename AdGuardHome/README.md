@@ -43,137 +43,69 @@
 
 <hr />
 
-# Adguard Home Block Lists
-AdGuard Home will block domains that match the block lists.
-
-AdGuard DNS filter https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-
-AdAway Default Blocklist Hosts https://adaway.org/hosts.txt
-
-uBlockOrigin filters https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
-
-uBlockOrigin 2020 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
-
-uBlockOrigin 2021 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
-
-uBlockOrigin 2022 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
-
-uBlockOrigin 2023 https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
-
-uBlockOrigin – Annoyances https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
-
-uBlockOrigin – Badware https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt
-
-uBlockOrigin – Privacy https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
-
-uBlockOrigin - Quick fixes list https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/quick-fixes.txt
-
-uBlockOrigin – Unbreak https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt
-
-uBlockOrigin – Resource abuse https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
-
-Scam Blocklist by DurableNapkin Hosts https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
-
-WindowsSpyBlocker Hosts https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
-
-The Big List of Hacked Malware Hosts https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
-
-Malicious URL Blocklist AGH https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt
-
-Privacy-protection-tools/anti-ad AGH https://anti-ad.net/easylist.txt
-
-Peter Lowe's List Hosts https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
-
-🎮 Game Console Adblock List AGH&Pi-hole https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
-
-Dan Pollock's List Hosts https://someonewhocares.org/hosts/zero/hosts
-
-💊 Dandelion Sprout's Anti-Malware List (for AdGuard Home, and for AdGuard for Android/Windows' DNS filtering) https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-
-The Block List Project - Malware Hosts https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt
-
-Nginx Ultimate Bad Bot Blocker Domains https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-referrers.list
-
-GoodbyeAds YouTube Hosts https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt
-
-GoodbyeAds Xiaomi Hosts https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
-
-GoodbyeAds Samsung Hosts https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Samsung-AdBlock.txt
-
-Blacklist Adserver Hosts https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
-
-Lightswitch05's Hosts ads-and-tracking extended https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
-
-Lightswitch05's Hosts amp-hosts-extended https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
-
-Lightswitch05's Hosts dating-service https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt
-
-NoCoin Filter Hosts https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
-
-Firehol_level1 max protection IP Lists https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset
-
-Firehol_level4 max protection IP Lists https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level4.netset
-
-Team Cymru Fullbogons (IPv6) IP Lists https://www.team-cymru.org/Services/Bogons/fullbogons-ipv6.txt
-
-Team Cymru Fullbogons (IPv4) IP Lists https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt
-
-hostsVN IOS Ads Hosts https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-iOS
-
-Phishing & Malware OLBAT Domains https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/phishing/urls
-
-BlockUnderRadarJunk Domains https://raw.githubusercontent.com/UnluckyLuke/BlockUnderRadarJunk/master/blockunderradarjunk-list.txt
-
-Phishing Army | hBlock Hosts https://hblock.molinero.dev/hosts_adblock.txt
-
-ADS Mochi DNS Filter Abroad - もちフィルタ（広告ブロック） https://raw.githubusercontent.com/eEIi0A5L/adblock_filter/master/mochi_filter.txt
-
-Google Ads and ID.G tracking Hosts https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_google_adservice_id.txt
-
-Unified hosts = (adware + malware) https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-
-Prigent-Malware Domains https://v.firebog.net/hosts/Prigent-Malware.txt
-
-SUS Lists Personal by WaLLy3K Domains https://v.firebog.net/hosts/static/w3kbl.txt
-
-Spam blacklist Domains https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
-
-Spam Suspicious by ValeSila Hosts https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
-
-Easyprivacy Firebog Domains https://v.firebog.net/hosts/Easyprivacy.txt
-
-Prigent-Ads Domains https://v.firebog.net/hosts/Prigent-Ads.txt
-
-Privacy android-tracking Domains https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
-
-Smart-TV Blocklist for AGH https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt
-
-NoTrack Tracker Domains https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-
-OSINT.digitalside.it Malicious Domains https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-
-Phishing Domains Blocklist by mitchellkrogza https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/active-domains.adblock
-
-Ad-wars Hosts https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-
-Brave DNS https://raw.githubusercontent.com/brave/adblock-lists/master/brave-unbreak.txt
-
-SecureReload Phishing Domains https://securereload.tech/Phishing/Lists/Latest/
-
-AGH Whitelist https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/whitelist.txt
-
-Hl2 agh Whitelist https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
-
-Banks agh Whitelist https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt
-
-Torrent Domains Whitelist https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
-
-Discord&Steam Phishing Domains https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
-
-Anti-WebMiner, Block Crypto & PUPs Hosts https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/hosts.txt
-
-D3host Hosts https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt
-
-Phishing URL Blocklist AGH https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt
-
-KADhosts https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+## AdGuard Home Go-to Block Lists
+* **AdGuard DNS filter**
+    https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+* **AdGuard DNS Popup Hosts filter**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
+* **AdAway Default Blocklist**
+    https://adaway.org/hosts.txt
+* **OISD Blocklist Small**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
+* **OISD Blocklist Big**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
+* **Steven Black's List AGH**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt
+* **Personal Filter List**
+    https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/refs/heads/main/Filters/filter.txt
+* **WindowsSpyBlocker - Hosts spy rules**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_23.txt
+* **Perflyst and Dandelion Sprout's Smart-TV Blocklist**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
+* **uBlock₀ filters – Badware risks**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt
+* **The Big List of Hacked Malware Web Sites**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt
+* **Phishing URL Blocklist (PhishTank and OpenPhish)**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt
+* **The Block List Project - Crypto List**
+    https://blocklistproject.github.io/Lists/crypto.txt
+* **NoCoin Filter List AG**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt
+* **Dandelion Sprout's Anti-Malware List AG**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt
+* **ShadowWhisperer's Dating List**
+    https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt
+* **Torrent tracker domains blocklist**
+    https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt 
+* **HaGeZi's Pro DNS Blocklist**
+    https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/pro.txt
+
+---
+
+## AdGuard Home Whitelist
+* **AGH Whitelist**
+    https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/whitelist.txt
+* **Hl2 agh Whitelist**
+    https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
+* **Banks agh Domains Whitelist**
+    https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt
+* **Regexp Whitelist**
+    https://raw.githubusercontent.com/swetoast/adguardhome-lists/refs/heads/main/whitelist.txt
+* **Easylist Allowlist**
+    https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/easylist/easylist_allowlist.txt
+* **HaGeZi's Allowlist URL Shortener**
+    https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/whitelist-urlshortener.txt
+* **HaGeZi's Allowlist Referral**
+    https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/whitelist-referral-native.txt
+
+---
+
+## GL-AX1800 - ipq60xx
+* **On GL.iNet's stock firmware. Due to limited memory and disabled zram in the kernel, only one large blocklist can be selected (e.g., OISD Blocklist Big, Steven Black's List, HaGeZi's Blocklist). For AdGuardHome to work without crashing.**
+
+---
+
+## More Info
+* **All List**
+    https://github.com/TogoFire-Home/AD-Settings/blob/main/Filters/README.md
