@@ -1,6 +1,6 @@
 &nbsp;
 
-<h3 align="center">In OpenWrt 20 or higher it is possible to install the zram plugin. For AdGuardHome to work without crashing install these plugins: 'kmod-zram' and 'zram-swap'.</h3>
+<h3 align="center">In OpenWrt 20 it is possible to install the zram plugin. For AdGuardHome to work without crashing install these plugins: 'kmod-zram' and 'zram-swap'.</h3>
 <h3 align="center">Download firmware for your GL.iNet devices: <a href="https://dl.gl-inet.com">dl.gl-inet.com</a></h3>
 <h3 align="center">Best Firewall: <a href="https://firewalla.com/">Firewalla</a></h3>
 

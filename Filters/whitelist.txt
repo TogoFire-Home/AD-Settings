@@ -26,6 +26,9 @@
 @@||geo3.ggpht.com^$important
 @@||yt3.ggpht.com^$important
 @@||drive.google.com^$important
+@@||g.co^$important
+@@||gemini.google.com^$important
+@@||translate.google.com^$important
 ! CNAME googletagmanager.com
 @@||www-googletagmanager.l.google.com^$important
 @@||googletagmanager.com^$important
@@ -110,11 +113,22 @@
 @@||snossafamilia.com.br^$important
 @@||supernossafamilia.com^$important
 @@||mail.supernossafamilia.com^$important
-@@||hub.gowifi.com.br^$important
+@@||superamigos.net^$important
+@@||mail.superamigos.net^$important
 @@||node712.extrainfra.com^$important
+@@||mail.node712.extrainfra.com^$important
+@@||ns1n712.extrainfra.com^$important
+@@||ns2n712.extrainfra.com^$important
+@@||dilbert.ns.cloudflare.com^$important
+@@||dana.ns.cloudflare.com^$important
+@@||ns1.dnsowl.com^$important
+@@||ns2.dnsowl.com^$important
+@@||ns3.dnsowl.com^$important
+@@||irena.ns.cloudflare.com^$important
+@@||weston.ns.cloudflare.com^$important
+@@||hub.gowifi.com.br^$important
 @@||da-de1.cloudns.io^$important
 @@||getmailbird.com^$important
-@@||flathub.org^$important
 ! Yahoo Mail
 @@||smtp.mail.yahoo.com^$important
 ! Twitch Chat
@@ -142,6 +156,26 @@
 @@||widget-cdn.rpxnow.com^$important
 @@||akamai.net^$important
 @@||akadns.net^$important
+! Snapchat
+@@||story.snapchat.com^$important
+@@||accounts.snapchat.com^$important
+@@||static.snapchat.com^$important
+@@||app.snapchat.com^$important
+@@||cf-st.sc-cdn.net^$important
+! Snapchat Aws
+@@||aws.duplex.snapchat.com^$important
+@@||aws.api.snapchat.com^$important
+@@|aws-proxy-gcp.api.snapchat.com^$important
+@@||aws.api.sc-gw.com^$important
+@@||us-east1-aws.api.sc-gw.com^$important
+! Snapchat api
+@@||us-east4-gcp.api.snapchat.com^$important
+@@||aws.api.snapchat.com^$important
+@@||us-central1-gcp.api.snapchat.com^$important
+@@||aws-proxy-gcp.api.sc-gw.com^$important
+@@||us-east1-aws.duplex.sc-gw.com^$important
+@@||gcp.api.snapchat.com^$important
+@@||us-central1-gcp.api.sc-gw.com^$important
 ! Sonarr TV Soft
 @@||apt.sonarr.tv^$important
 @@||download.sonarr.tv^$important
@@ -298,6 +332,7 @@
 ! Samsung TV network issue
 @@||cdn.samsungcloudsolution.com^$important
 ! Spotify
+@@||spotify.com^$important
 @@||open.spotify.com^$important
 @@||mobile-ap.spotify.com^$important
 @@||apresolve.spotify.com^$important
@@ -408,6 +443,7 @@
 @@||solidshare.net^$important
 ! Repackme
 @@||repack.me^$important
+@@||*.repack.me^$important
 @@||repackmepoymi.cf^$important
 ! Stacksocial
 @@||stacksocial.com^$important
@@ -475,6 +511,27 @@
 @@||dl.gl-inet.com^$important
 @@||firewalla.com^$important
 @@||gl-inet.com^$important
+@@||app.tagsell.com.br^$important
+@@||app.tagsell.com.br/login^$important
+@@||app.internetbanking.caixa.gov.br^$important
+@@||caixa.gov.br^$important
+@@||tagsell.com.br^$important
+@@||my.kaspersky.com^$important
+@@||*.iobit.com^$important
+@@||*.elasticbeanstalk.com^$important
+@@||cd4o.com^$important
+@@||driverboosterscan.com^$important
+@@||tls.comnectnet.com.br^$important
+@@||tls.comnectmonitor.com.br^$important
+@@||portal.comnect.com.br^$important
+@@||update.comnect.com.br^$important
+@@||sitefexpress.softwareexpress.com.br^$important
+@@||35.199.86.162^$important
+@@||sitdm.net^$important
+@@||usitdm.net^$important
+@@||uzecomvoce.com.br^$important
+@@||shalltry.com^$important
+@@||*.dmcardweb.com.br^$important
 ! https://www.reddit.com/r/pihole/comments/74it6h/help_identifying_embedded_video_url_being_blocked/
 @@||d2c8v52ll5s99u.cloudfront.net^$important
 ! https://wally3k.github.io/ (bottom of the page)
@@ -767,6 +824,7 @@
 @@||.evowise.com^$important
 ! Torrent tracker
 @@||tracker.trackerfix.com^$important
+@@||*.gratistorrent.com^$important
 ! Newsletter host
 @@||revue.com^$important
 ! DirectTV Now
@@ -1329,6 +1387,9 @@
 @@||hbbtv01p.anixe.net^$important
 ! https://github.com/notracking/hosts-blocklists/issues/555
 @@||sgqcvfjvr.onet.pl^$important
+! Keepsolid
+@@||keepsolid.com^$important
+@@||id.keepsolid.com^$important
 ! Linkedin
 @@||linkedin.com^$important
 @@||media-expl1.licdn.com^$important
@@ -2445,12 +2506,14 @@ dr49lng3n1n2s.cloudfront.net^$important
 @@||mirrorcache-us.opensuse.org^$important
 @@||mirrorcache-br.opensuse.org^$important
 @@||mirrorcache-br-2.opensuse.org^$important
+@@||cache.opensuse.net.br^$important
 @@||mirrorcache.opensuse.org^$important
 @@||news.opensuse.org^$important
 @@||ftp.gwdg.de^$important
 @@||build.opensuse.org^$important
 @@||software.opensuse.org^$important
 ! Flathub
+@@||flathub.org^$important
 @@||dl.flathub.org^$important
 @@||flatpak.elementary.io^$important
 @@||flatpak.zorinos.com^$important
