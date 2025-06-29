@@ -74,6 +74,8 @@
     https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt
 * **ShadowWhisperer's Dating List**
     https://adguardteam.github.io/HostlistsRegistry/assets/filter_57.txt
+* **HaGeZi's Pro DNS Blocklist**
+    https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/pro.txt
 
 ---
 
@@ -92,6 +94,11 @@
     https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/whitelist-urlshortener.txt
 * **HaGeZi's Allowlist Referral**
     https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/whitelist-referral-native.txt
+
+---
+
+## GL-AX1800 - ipq60xx
+* **On GL.iNet's stock firmware. Due to limited memory and disabled zram in the kernel, only one large blocklist can be selected (e.g., OISD Blocklist Big, Steven Black's List, HaGeZi's Blocklist). For AdGuardHome to work without crashing.**
 
 ---
 

@@ -114,7 +114,7 @@ filters:
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
     name: OISD Blocklist Big
     id: 1750921068
-  - enabled: true
+  - enabled: false
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt
     name: Steven Black's List
     id: 1750921069
